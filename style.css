@@ -1,0 +1,227 @@
+/* Titre et fusée*/
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+.rocket-image {
+    width: 100px;
+    height: 100px;
+}
+
+.titre {
+    display: flex;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* fond entête de page*/
+
+section.galaxi {
+    background: url(https://scitechdaily.com/images/Distorted-Galaxy-Concept.jpg);
+    background-size: cover;
+    height: 60vh;
+    padding: 25px;
+}
+
+/* Barre de navigation et logo étoile*/
+
+header.header {
+    display: flex;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    list-style: none;
+}
+
+nav.navbar {
+    margin-right: 50px;
+}
+
+nav.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav.navbar ul:hover {
+    color: #000536;
+}
+nav.navbar ul li {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.navbar ul li:hover {
+    background-color: #000;
+}
+
+nav.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.body {
+    background-color: #000;
+}
+
+/*Suite du site (Contexte)*/
+
+section.Context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+section.Context p {
+    color: #fff;
+}
+
+.Context h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*images de galaxies*/
+
+.publication {
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+section.Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 800px;
+    min-width: 800px;
+    margin-left: 30px;
+    margin-right: 50px;
+    overflow-x: auto;
+}
+
+.post1 {
+    background-image: url(https://www.wallpaperflare.com/static/226/957/202/500px-vadim-sadovski-space-space-art-wallpaper.jpg);
+    min-width: 500px;
+    height: 700px;
+}
+
+.post2 {
+    background-image: url(https://www.html5canvastutorials.com/blog/demo/fan/lion.jpg);
+    min-width: 500px;
+    height: 700px;
+}
+
+.post3 {
+    background-image: url(https://www.francetvinfo.fr/pictures/9ZXhuHvTBpPaimhCxEmTqPDTBTI/0x0:3124x1956/fit-in/720x/2024/02/02/ngc-628-65bcd8031f529095685476.jpg);
+    min-width: 500px;
+    height: 700px;
+
+}
+
+.post1, .post2, .post3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* a découvrir sur le site et la communauté*/
+
+.domaine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.titre-domaine {
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.box {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    background-image: url(https://scitechdaily.com/images/Distorted-Galaxy-Concept.jpg);
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.box img {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 180px;
+    margin-bottom: 100px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    background-image: url(https://img.freepik.com/photos-premium/belle-photo-rendue-3d-espace-galaxie-image-generee-par-ia_894117-1335.jpg);
+}
+
+/*pied de page*/
+.footer {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
