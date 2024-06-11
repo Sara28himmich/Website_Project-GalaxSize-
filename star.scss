@@ -5,66 +5,16 @@
   }
   
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  margin-top: 60px;
-  align-items: center;
-  margin-top: 50px;
-  padding: 0;
-  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow: hidden;
-}
-
-.form-container {
-  align-items: center;
-}
-
-h1 {
-  color: #fff;
-  font-size: 30px;
-  text-align: center;
-}
-
-.inscription-form {
-  position: fixed;
-  z-index: 1;
-  align-items: center;
-  color: #000; /* Changez cette ligne à #000 pour du texte noir */
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 30px;
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.inscription-form input[type="text"],
-.inscription-form input[type="password"] {
-  margin-top: 10px;
-  color: #000; /* Ajoutez cette ligne pour du texte noir dans les champs de saisie */
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.inscription-form input[type="submit"] {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.inscription-form input[type="submit"]:hover {
-  background-color: #0056b3;
-}
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0;
+    background: radial-gradient(ellipse at bottom, #ffffff 0%, #ecedf3 100%);
+    overflow: hidden;
+  }
   
   @function random_range($min, $max) {
     $rand: random();

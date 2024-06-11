@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>Inscription</title>
     <?php include 'star.php'; ?>
+    <link rel="stylesheet" type="text/css" href="form.css">
 </head>
 <body>
 <div class="form-container">
-    <h1>Bienvenue</h1>
+    <h1>Lorem Ipsum</h1>
     <div class="inscription-form">
 <form class="inscription-form" action="traitement-inscription.php" method="post">
         <label for="password">Email:</label>
