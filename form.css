@@ -15,9 +15,33 @@ body {
     align-items: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.connexion-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connexion-form label {
+    margin-top: 10px;
+}
+
+.connexion-form input[type="submit"] {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.a {
+    text-underline-offset: 0.2em;
+    color: blue;
+}
+
+.a:hover {
+    color: rgb(82, 57, 13);
 }
 
 .inscription-form {

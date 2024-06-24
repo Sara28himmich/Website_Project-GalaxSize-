@@ -12,7 +12,7 @@
         <nav class="navbar">
             <ul>
                 <li><a>Accueil</a></li>
-                <li><a href="inscription.php">Login</a></li>
+                <li><a href="connexion.php">Login</a></li>
                 <li><a>Register</a></li>
             </ul>
         </nav>
